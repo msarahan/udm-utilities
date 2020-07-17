@@ -22,7 +22,7 @@ IPV6_GW=""
 # set this to the interface(s) on which you want DNS TCP/UDP port 53 traffic
 # re-routed through the DNS container. separate interfaces with spaces.
 # e.g. "br0" or "br0 br1" etc.
-FORCED_INTFC=""
+FORCED_INTFC="br3"
 
 # container name; e.g. nextdns, pihole, adguardhome, etc.
 CONTAINER=nextdns
