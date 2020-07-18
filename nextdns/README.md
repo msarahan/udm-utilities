@@ -52,7 +52,7 @@ If you have already installed PiHole, skip right to step 6.
         -v "/mnt/data/nextdns/:/etc/nextdns/" \
         -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \
         --mount type=bind,source=/config/dnsmasq.lease,target=/tmp/dnsmasq.leases \
-        --dns=45.90.28.163 --dns=45.90.30.163 \
+        --dns=45.90.28.239 --dns=45.90.30.239 \
         --hostname nextdns \
         boostchicken/nextdns-udm:latest
     ```
